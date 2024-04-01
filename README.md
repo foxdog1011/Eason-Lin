@@ -41,4 +41,12 @@ Email: <a href="mailto:eason4522@gmail.com">eason4522@gmail.com</a></p>
 <li>該 cronjob 已執行，可透過指令即時查看目前 job 的運行狀況<br>
 <img src="https://github.com/foxdog1011/Eason-Lin/blob/master/01.04.2024_16.05.17_REC.png?raw=true" alt="enter image description here"></li>
 </ol>
+<h2 id="建立jenkins-pipeline-結合專案項目">建立Jenkins Pipeline 結合專案項目</h2>
+<ol>
+<li>透過 maven 構建項目</li>
+<li>透過 sonarqube 做代碼檢測</li>
+<li>docker build image</li>
+<li>將 image 推送到 harbor<br>
+<img src="https://github.com/foxdog1011/Eason-Lin/blob/master/01.04.2024_16.24.33_REC.png?raw=true" alt="enter image description here"></li>
+</ol>
 
