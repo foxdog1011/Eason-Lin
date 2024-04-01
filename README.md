@@ -34,4 +34,11 @@ Email: <a href="mailto:eason4522@gmail.com">eason4522@gmail.com</a></p>
 <li>打開本機端瀏覽器輸入找到的網址，即可進到 Wordpress application 的設定頁面<br>
 <img src="https://github.com/foxdog1011/Eason-Lin/blob/master/01.04.2024_15.12.10_REC.png?raw=true" alt="enter image description here"></li>
 </ol>
+<h2 id="使用-minikube-實現排程服務">使用 Minikube 實現排程服務</h2>
+<ol>
+<li>透過設定檔創建一個名稱為 hello 的 cronjob，在每一分鐘的時候都能在 kubernetes 上運行 echo “hi current time is ${date}” 的指令<br>
+<img src="https://github.com/foxdog1011/Eason-Lin/blob/master/01.04.2024_15.58.59_REC.png?raw=true" alt="enter image description here"></li>
+<li>該 cronjob 已執行，可透過指令即時查看目前 job 的運行狀況<br>
+<img src="https://github.com/foxdog1011/Eason-Lin/blob/master/01.04.2024_16.05.17_REC.png?raw=true" alt="enter image description here"></li>
+</ol>
 
