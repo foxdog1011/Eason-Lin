@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-deployment  # 修正了這行的縮進
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: my-deployment
+  template:
+    metadata:
+      labels:
+        app: my-deployment
+    spec:
+      containers:
+      - name: webapp
+        image: zxcvbnius/docker-demo
+        ports:
+        - name: webapp-port
+          containerPort: 3000
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 3000  # 修改了這裡，因為 livenessProbe 中的 port 需要是一個整數或
